@@ -60,6 +60,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+
 input[type=cancel] {
     width: 50%;
     background-color: #4CAF50;
@@ -71,10 +72,10 @@ input[type=cancel] {
     cursor: pointer;
 }
 
-    /* Add a background color to the submit button on mouse-over */
-    input[type=submit]:hover {
-        background-color: #45a049;
-    }
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 
 form2 {
     position: fixed;
@@ -145,3 +146,32 @@ body {
         border: 1px solid #ccc;
     }
 }
+table {
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even) {
+    background: #e6f2ff;
+}
+
+tr:nth-child(odd) {
+    background: #cce6ff;
+}
+
+/* End table */ 

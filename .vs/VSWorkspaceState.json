@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\Hotel Booking",
-    "\\Hotel Booking\\packages",
-    "\\Hotel Booking\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0"
+    "\\Hotel Booking\\packages"
   ],
   "PreviewInSolutionExplorer": false
 }

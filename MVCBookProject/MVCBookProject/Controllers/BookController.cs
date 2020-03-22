@@ -31,5 +31,16 @@ namespace MVCBookProject.Controllers
 
             return View();
         }
+
+        public ActionResult TheMambaMentality()
+        {
+
+
+            ViewBag.Title = "TheMambaMentality";
+            ViewBag.Author = "Kobe Bryant";
+            ViewBag.Content = "This book is written by Kobe Bryant";
+
+            return View();
+        }
     }
 }

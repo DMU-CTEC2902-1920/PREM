@@ -269,6 +269,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Book\BenSimmons.cshtml" />
     <Content Include="Views\Book\Legends.cshtml" />
+    <Content Include="Views\Book\TheMambaMentality.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

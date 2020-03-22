@@ -26,5 +26,12 @@ namespace MVCBookProject.Controllers
 
             return View();
         }
+
+        public ActionResult  Booksavaliable()
+        {
+            ViewBag.Message = "Books";
+
+            return View();
+        }
     }
 }

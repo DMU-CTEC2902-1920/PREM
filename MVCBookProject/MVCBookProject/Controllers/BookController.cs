@@ -20,5 +20,16 @@ namespace MVCBookProject.Controllers
             
             return View();
         }
+
+        public ActionResult Legends()
+        {
+
+
+            ViewBag.Title = "Legends";
+            ViewBag.Author = "Howard Bryant";
+            ViewBag.Content = "This book is written by Howard Bryant";
+
+            return View();
+        }
     }
 }

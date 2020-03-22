@@ -26,5 +26,19 @@ namespace MVCBookProject.Controllers
 
             return View();
         }
+
+        public ActionResult Addbook()
+        {
+            ViewBag.Message = "Your add book page.";
+
+            return View();
+        }
+
+        public ActionResult BookLink()
+        {
+            ViewBag.Message = "Your add book page.";
+
+            return View();
+        }
     }
 }

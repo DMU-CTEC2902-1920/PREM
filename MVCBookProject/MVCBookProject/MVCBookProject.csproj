@@ -215,6 +215,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\basketball 1.jpg" />
+    <Content Include="images\basketball.jpg" />
+    <Content Include="images\basketball2.jpg" />
+    <Content Include="images\basketball3.jpg" />
+    <Content Include="images\basketball4.jpg" />
+    <Content Include="images\basketball5.jpg" />
+    <Content Include="images\basketball6.jpg" />
+    <Content Include="images\Image4-MVP.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -265,11 +273,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\Booksavaliable.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

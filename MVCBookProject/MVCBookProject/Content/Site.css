@@ -1,8 +1,58 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black;
 }
 
+.jumbotron{
+    color:aqua;
+    background-color:black
+}
+
+.btn btn-default {
+    color: antiquewhite;
+    background-color: red
+}
+
+
+.col-md-4 {
+    background-color: black;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size: xx-large;
+    position: center;
+    width: 1000px;
+}
+
+.col-md-8 {
+    background-color: black;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size:xx-large;
+    position: center;
+    width: 1000px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -21,4 +71,24 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.text1 {
+    background-color: black;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size: xx-large;
+    position: center;
+    width: 1000px;
+}
+
+.text2 {
+    font-family: 'Baskerville Old Face';
+    font-size: large;
+    position: center;
+    width: 1000px;
 }

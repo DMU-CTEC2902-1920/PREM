@@ -115,3 +115,7 @@ textarea {
     top:80%;
 }
 
+.amazon {
+    position: fixed;
+    top: 90%;
+}

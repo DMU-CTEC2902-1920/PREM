@@ -23,8 +23,10 @@
 
 
     <div class="description">
-       <p>The Mamba Mentality: How I Play is Kobe Bryant's personal perspective of his life and career on the basketball court and his exceptional, insightful style of playing the game--a fitting legacy from the late Los Angeles Laker superstar.
-        n the wake of his retirement from professional basketball, Kobe “The Black Mamba” Bryant decided to share his vast knowledge and understanding of the game to take readers on an unprecedented journey to the core of the legendary “Mamba mentality.” Citing an obligation and an opportunity to teach young players, hardcore fans, and devoted students of the game how to play it “the right way,” The Mamba Mentality takes us inside the mind of one of the most intelligent, analytical, and creative basketball players ever.</p>
+        <p>
+            The Mamba Mentality: How I Play is Kobe Bryant's personal perspective of his life and career on the basketball court and his exceptional, insightful style of playing the game--a fitting legacy from the late Los Angeles Laker superstar.
+            n the wake of his retirement from professional basketball, Kobe “The Black Mamba” Bryant decided to share his vast knowledge and understanding of the game to take readers on an unprecedented journey to the core of the legendary “Mamba mentality.” Citing an obligation and an opportunity to teach young players, hardcore fans, and devoted students of the game how to play it “the right way,” The Mamba Mentality takes us inside the mind of one of the most intelligent, analytical, and creative basketball players ever.
+        </p>
 
         <p>In his own words, Bryant reveals his famously detailed approach and the steps he took to prepare mentally and physically to not just succeed at the game, but to excel. Readers will learn how Bryant studied an opponent, how he channeled his passion for the game, how he played through injuries. They’ll also get fascinating granular detail as he breaks down specific plays and match-ups from throughout his career.</p>
 
@@ -38,17 +40,22 @@
         <form action="https://www.amazon.com/Mamba-Mentality-How-Play/dp/0374201234">
             <button type="submit">Amazon</button>
         </form>
+        <form action="https://blackwells.co.uk/bookshop/product/9780374201234?gC=5a105e8b&gclid=EAIaIQobChMI8LL8j8ux6AIVmNxRCh3V3Ax9EAkYASABEgJ4TvD_BwE">
+            <button type="submit"> Blackwells</button>
+        </form>
+
     </div>
+
 
     @*review book*@
 
-<div class="review">
-    <h3>Review</h3>
-    <input id="btnReview" type="button" value="Add Review" />
-    @if (Session["username"] == null)
-    {
-        <a href="@Url.Action("Login", "Account")">Login to review.</a>
-    }
-</div>
+    <div class="review">
+        <h3>Review</h3>
+        <input id="btnReview" type="button" value="Add Review" />
+        @if (Session["username"] == null)
+        {
+            <a href="@Url.Action("Login", "Account")">Login to review.</a>
+        }
+    </div>
 </body>
 </html>

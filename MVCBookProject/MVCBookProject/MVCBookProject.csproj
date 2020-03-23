@@ -223,6 +223,7 @@
     <Content Include="images\basketball5.jpg" />
     <Content Include="images\basketball6.jpg" />
     <Content Include="images\Image4-MVP.jpg" />
+    <Content Include="images\used-books-store-2.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

@@ -72,3 +72,23 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.text1 {
+    background-color: black;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size: xx-large;
+    position: center;
+    width: 1000px;
+}
+
+.text2 {
+    font-family: 'Baskerville Old Face';
+    font-size: large;
+    position: center;
+    width: 1000px;
+}

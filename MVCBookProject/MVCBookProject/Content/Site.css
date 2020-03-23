@@ -104,7 +104,14 @@ textarea {
 .description{
     left:25%;
     position:fixed;
+    top:30%;
     
     margin-right:150px;
     
 }
+
+.review{
+    position:fixed;
+    top:80%;
+}
+

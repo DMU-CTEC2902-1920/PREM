@@ -18,19 +18,55 @@
 
     </div>
     <div class="picture">
-        <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200"/>
+        <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200" />
     </div>
     <div class="description">
-        
-        <p>In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch, 
-        Ben Simmons. Since being drafted first overall in the 2016 NBA Draft, </p>
-        <p>Ben Simmons has quickly emerged as one of the league's top young stars to watch.</p>
+
+        <p>
+            In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch,
+            Ben Simmons. Since being drafted first overall in the 2016 NBA Draft,
+        </p>
+        <p>
+            Ben Simmons has quickly emerged as one of the league's top young stars to watch.
+            Just twenty-two years old at the time of this writing, Simmons' career is in many ways just getting started. It'll be exciting to see how he continues to grow in the years ahead.
+
+
+            Pick up this unauthorized biography today to learn the inspiring story behind rising star, Ben Simmons!
+
+            Here is a preview of what is inside this Ben Simmons book:
+
+
+            Childhood and Early Days
+
+            High School Career in America
+
+            College Career
+
+            NBA Career: Getting Drafted, The Injury Season
+
+            The Long-Awaited Debut Season, Becoming Rookie of the Year
+
+            First All-Star Appearance
+
+            International Career
+
+            Ben Simmons’ Personal Life
+
+            Simmons’ Impact on Basketball
+
+            Legacy and Future
+        </p>
     </div>
-    <h3>Review</h3>
-    <input id="btnReview" type="button" value="Add Review" />
-    @if (Session["username"] == null)
-    {
-        <a href="@Url.Action("Login", "Account")">Login to review.</a>
-    }
+
+    
+    
+    <div class="review">
+        <h5>Review</h5>
+        <input id="btnReview" type="button" value="Add Review" />
+        @if (Session["username"] == null)
+        {
+            <a href="@Url.Action("Login", "Account")">Login to review.</a>
+        }
+    </div>
 </body>
 </html>

@@ -11,8 +11,8 @@
     <title>Legends</title>
 </head>
 <body>
-    <div> 
-        <h1>@ViewBag.Author</h1> 
+    <div>
+        <h1>@ViewBag.Author</h1>
     </div>
     <div class="picture">
         <img src="~/images/basketball.jpg" alt="Legends" />
@@ -21,5 +21,11 @@
         From Magic Johnson to Michael Jordan to LeBron James to Steph Curry, ESPN's Howard Bryant presents the best from the hardwood--a collection of NBA champions and superstars for young sports fans!
 
     </description>
+    <h3>Review</h3>
+    <input id="btnReview" type="button" value="Add Review" />
+    @if (Session["username"] == null)
+    {
+        <a href="@Url.Action("Login", "Account")">Login to review.</a>
+    }
 </body>
 </html>

@@ -94,3 +94,16 @@ textarea {
     width: 1000px;
 }
 
+.picture{
+    position:absolute;
+    left:10%;
+    width:200px;
+    height:200px;
+}
+
+.description{
+    left:25%;
+    position:fixed;
+    text-align:justify;
+    
+}

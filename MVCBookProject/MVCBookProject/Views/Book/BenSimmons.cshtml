@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Ben Simmons</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
 </head>
 <body>
     <div>
@@ -17,12 +18,14 @@
 
     </div>
     <div class="picture">
-        <img src="~/images/basketball5.jpg" alt="BenSimmons" />
+        <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200"/>
     </div>
-    <description>
-        @*enter description of the book*@
-        In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch, Ben Simmons. Since being drafted first overall in the 2016 NBA Draft, Ben Simmons has quickly emerged as one of the league's top young stars to watch.
-    </description>
+    <div class="description">
+        
+        <p>In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch, 
+        Ben Simmons. Since being drafted first overall in the 2016 NBA Draft, </p>
+        <p>Ben Simmons has quickly emerged as one of the league's top young stars to watch.</p>
+    </div>
     <h3>Review</h3>
     <input id="btnReview" type="button" value="Add Review" />
     @if (Session["username"] == null)

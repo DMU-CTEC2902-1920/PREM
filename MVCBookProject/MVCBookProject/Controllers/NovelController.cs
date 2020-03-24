@@ -11,19 +11,23 @@ namespace MVCBookProject.Controllers
         // GET: Novel
         public ActionResult BenSimmons()
         {
-            ViewBag.Message = "Ben simmons";
+            ViewBag.Title = "Ben Simmons";
+            ViewBag.Author = "Ben Simmons";
+            ViewBag.Content = "This book is written by Ben Simmons";
             return View();
         }
 
         public ActionResult Legends()
         {
-            ViewBag.Message = "Legends";
+            ViewBag.Title = "Legends";
+            ViewBag.Author = "Howard Bryant";
             return View();
         }
 
         public ActionResult MambaMentality()
         {
-            ViewBag.Message = "MambaMentality";
+            ViewBag.Title = "The Mamba Mentality";
+            ViewBag.Author = "Kobe Bryant";
             return View();
         }
     }

@@ -101,13 +101,17 @@ textarea {
     height:200px;
 }
 
-.description{
-    left:25%;
-    position:fixed;
-    top:30%;
-    
-    margin-right:150px;
-    
+.description {
+    background-color: black;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size: large;
+    position: center;
+    width: 1000px;
 }
 
 .review{

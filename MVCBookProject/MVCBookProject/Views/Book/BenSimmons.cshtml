@@ -12,68 +12,66 @@
     <link href="~/Content/Site.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        <h1>@ViewBag.Title</h1>
-        <h2>@ViewBag.Author</h2>
+  
+        <div class="description">
 
-    </div>
-    <div class="picture">
-        <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200" />
-    </div>
-    <div class="description">
+            <h1>@ViewBag.Title</h1>
+            <h2>@ViewBag.Author</h2>
 
-        <p>
-            In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch,
-            Ben Simmons. Since being drafted first overall in the 2016 NBA Draft,
-        </p>
-        <p>
-            Ben Simmons has quickly emerged as one of the league's top young stars to watch.
-            Just twenty-two years old at the time of this writing, Simmons' career is in many ways just getting started. It'll be exciting to see how he continues to grow in the years ahead.
+            <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200" />
 
 
-            Pick up this unauthorized biography today to learn the inspiring story behind rising star, Ben Simmons!
 
-            Here is a preview of what is inside this Ben Simmons book:
+            <p>
+                In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch,
+                Ben Simmons. Since being drafted first overall in the 2016 NBA Draft,
+            </p>
+            <p>
+                Ben Simmons has quickly emerged as one of the league's top young stars to watch.
+                Just twenty-two years old at the time of this writing, Simmons' career is in many ways just getting started. It'll be exciting to see how he continues to grow in the years ahead.
 
 
-            Childhood and Early Days
+                Pick up this unauthorized biography today to learn the inspiring story behind rising star, Ben Simmons!
 
-            High School Career in America
+                Here is a preview of what is inside this Ben Simmons book:
 
-            College Career
 
-            NBA Career: Getting Drafted, The Injury Season
+                Childhood and Early Days
 
-            The Long-Awaited Debut Season, Becoming Rookie of the Year
+                High School Career in America
 
-            First All-Star Appearance
+                College Career
 
-            International Career
+                NBA Career: Getting Drafted, The Injury Season
 
-            Ben Simmons’ Personal Life
+                The Long-Awaited Debut Season, Becoming Rookie of the Year
 
-            Simmons’ Impact on Basketball
+                First All-Star Appearance
 
-            Legacy and Future
-        </p>
-    </div>
+                International Career
 
-    <div class="amazon">
-        <h4> Get a copy</h4>
-        <form action="https://www.amazon.com/Ben-Simmons-Inspiring-Basketballs-Basketball-ebook/dp/B07S2KX5BB">
-            <button type="submit">Amazon</button>
-        </form>
-        
+                Ben Simmons’ Personal Life
 
-    </div>
-    
-    <div class="review">
-        <h5>Review</h5>
-        <input id="btnReview" type="button" value="Add Review" />
-        @if (Session["username"] == null)
-        {
-            <a href="@Url.Action("Login", "Account")">Login to review.</a>
-        }
-    </div>
+                Simmons’ Impact on Basketball
+
+                Legacy and Future
+            </p>
+
+
+
+            <h4> Get a copy</h4>
+            <form action="https://www.amazon.com/Ben-Simmons-Inspiring-Basketballs-Basketball-ebook/dp/B07S2KX5BB">
+                <button type="submit">Amazon</button>
+            </form>
+
+
+
+            <h5>Review</h5>
+            <input id="btnReview" type="button" value="Add Review" />
+            @if (Session["username"] == null)
+            {
+                <a href="@Url.Action("Login", "Account")">Login to review.</a>
+            }
+        </div>
 </body>
 </html>

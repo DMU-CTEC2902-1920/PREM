@@ -30,12 +30,22 @@
             <button type="submit">Blackwells</button>
         </form>
     
-    <h4>Review</h4>
-    <input id="btnReview" type="button" value="Add Review" />
-    @if (Session["username"] == null)
-    {
-        <a href="@Url.Action("Login", "Account")">Login to review.</a>
-    }
-    </div>
+        <div class="card-body1">
+            <h5> Reviews</h5>
+            <p>Very happy.</p>
+            <small class="text-muted">Posted by Grace on 03/01/2020</small>
+            <hr />
+            <p>I bought this for my 11 year old nephew for Christmas hoping it would get him a little more interested in reading as its his least favorite subject. He couldn't put it down. Read the entire thing and asked his teacher if he could take an Accelerated Reading test on it and scored an 85% which shows he also retained information. So glad I bought this!</p>
+            <small class="text-muted">Posted by Nicole on 05/02/2020</small>
+            <form>
+                <div class="form-group">
+                    <label>Write your comment</label>
+                    <textarea class="form-control" rows="2" name="comment" placeholder="Write your comment here."></textarea>
+                </div>
+                <button class="btn btn-success">Leave a review</button>
+            </form>
+
+
+        </div>
 </body>
 </html>

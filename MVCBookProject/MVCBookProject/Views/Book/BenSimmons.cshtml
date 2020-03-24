@@ -65,16 +65,10 @@
             </form>
 
 
-
-            <h5>Review</h5>
-            <input id="btnReview" type="button" value="Add Review" />
-            @if (Session["username"] == null)
-            {
-                <a href="@Url.Action("Login", "Account")">Login to review.</a>
-            }
         </div>
 
         <div class="card-body">
+            <h5> Reviews</h5>
             <p>Great for youth to read.</p>
             <small class="text-muted">Posted by Grace on 03/01/2020</small>
             <hr />

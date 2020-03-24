@@ -114,12 +114,30 @@ textarea {
     width: 1000px;
 }
 
-.review{
-    position:fixed;
-    top:80%;
+.card-body {
+    position: absolute;
+    top: 130%;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    width:1000px;
 }
 
 .amazon {
     position: fixed;
     top: 90%;
+}
+
+.card-body1 {
+    position: absolute;
+    top: 150%;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    width: 1000px;
+    left:10%;
 }

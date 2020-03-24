@@ -153,3 +153,16 @@ textarea {
     width: 1000px;
     left: 10%;
 }
+
+.form-control{
+    width:1000px;
+}
+
+.ratings {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size:larger;
+}

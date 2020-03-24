@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Legends";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Legends</title>
+</head>
+<body>
+    <div class="description">
+        <h1>@ViewBag.Title</h1>
+        <h2>@ViewBag.Author</h2>
+
+        <img src="~/images/basketball.jpg" alt="Legends" height="400" width="200" />
+        <link href="~/Content/Site.css" rel="stylesheet" />
+
+        <p>From Magic Johnson to Michael Jordan to LeBron James to Steph Curry, ESPN's Howard Bryant presents the best from the hardwood--a collection of NBA champions and superstars for young sports fans!</p>
+        <p>Fast-paced, adrenaline-filled, and brimming with out-of-this-world athleticism, basketball has won the hearts of fans all across America--yet it is particularly popular among kids and teens. Giants of the game like Steph Curry, LeBron, and Michael Jordan have transcended the sport to become cultural icons and role models to young fans. From the cornfields of Indiana and the hills of North Carolina, to the urban sprawl of New York City, Chicago and L.A., love of the game stretches from coast to coast.</p>
+        <p>Featuring Top Ten Lists to chew on and debate, and a Top 40-style Timeline of Key Moments in Basektball History, this comprehensive collection includes the greatest dynasties, from the Bill Russell-era Celtics, to the Magic Jonson-led Lakers, to the Jordan-led Bulls, right up to the Tim Duncan-led Spurs. All the greats take flight toward the hoop in this perfect book for young fans who dream about stepping on an NBA court.</p>
+
+        @*external links*@
+        <h3> Get a copy</h3>
+        <form action="https://www.amazon.co.uk/Legends-Players-Games-Teams-Basketball/dp/0399169059">
+            <button type="submit">Amazon</button>
+        </form>
+        <form action="https://blackwells.co.uk/bookshop/product/9780147512574?gC=5a105e8b&gclid=EAIaIQobChMI0a7kwsyx6AIVQrDtCh1lugOhEAQYAiABEgJBPPD_BwE">
+            <button type="submit">Blackwells</button>
+        </form>
+
+        <h5> Reviews</h5>
+        <p>Very happy.</p>
+        <small class="text-muted">Posted by Grace on 03/01/2020</small>
+        <hr />
+        <p>I bought this for my 11 year old nephew for Christmas hoping it would get him a little more interested in reading as its his least favorite subject. He couldn't put it down. Read the entire thing and asked his teacher if he could take an Accelerated Reading test on it and scored an 85% which shows he also retained information. So glad I bought this!</p>
+        <small class="text-muted">Posted by Nicole on 05/02/2020</small>
+        <form>
+            <div class="form-group">
+                <label>Write your comment</label>
+                <textarea class="form-control" rows="2" name="comment" placeholder="Write your comment here."></textarea>
+            </div>
+            <button class="btn btn-success">Leave a review</button>
+        </form>
+
+
+
+        @*rate now section*@
+
+        <div class="ratings">
+
+            <table>
+                <tr>
+                    <th>1<input id="Radio1" type="radio" /></th>
+                    <th>2<input id="Radio2" type="radio" /></th>
+                    <th>3<input id="Radio3" type="radio" /></th>
+                    <th>4<input id="Radio4" type="radio" /></th>
+                    <th>5<input id="Radio5" type="radio" /></th>
+                    <th><button onclick="myFunction()" class="btn btn-success">Submit</button></th>
+                </tr>
+            </table>
+        </div>
+        @*once submit button is pressed a message will appear*@
+        <script>
+            function myFunction() {
+                alert("Thank you for your vote!");
+            }
+        </script>
+    </div>
+</body>
+</html>

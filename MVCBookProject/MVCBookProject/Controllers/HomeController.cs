@@ -15,18 +15,30 @@ namespace MVCBookProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "About Us";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Our contact page.";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
 
-     
+        public ActionResult Addbook()
+        {
+            ViewBag.Message = "Your add book page.";
+
+            return View();
+        }
+
+        public ActionResult BookLink()
+        {
+            ViewBag.Message = "Your add book page.";
+
+            return View();
+        }
     }
 }

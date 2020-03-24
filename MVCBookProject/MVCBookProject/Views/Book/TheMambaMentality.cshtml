@@ -14,15 +14,15 @@
     <div class="description">
         <h1>@ViewBag.Title</h1>
         <h2>@ViewBag.Author</h2>
-   
-    @*Add vote or rating*@
-    
+
+        @*Add vote or rating*@
+
         <img src="~/images/basketball2.jpg" alt="TheMambaMentality" />
-    
 
 
 
-    
+
+
         <p>
             The Mamba Mentality: How I Play is Kobe Bryant's personal perspective of his life and career on the basketball court and his exceptional, insightful style of playing the game--a fitting legacy from the late Los Angeles Laker superstar.
             n the wake of his retirement from professional basketball, Kobe “The Black Mamba” Bryant decided to share his vast knowledge and understanding of the game to take readers on an unprecedented journey to the core of the legendary “Mamba mentality.” Citing an obligation and an opportunity to teach young players, hardcore fans, and devoted students of the game how to play it “the right way,” The Mamba Mentality takes us inside the mind of one of the most intelligent, analytical, and creative basketball players ever.
@@ -33,7 +33,7 @@
         <p>Bryant’s detailed accounts are paired with stunning photographs by the Hall of Fame photographer Andrew D. Bernstein. Bernstein, long the Lakers and NBA official photographer, captured Bryant’s very first NBA photo in 1996 and his last in 2016―and hundreds of thousands in between, the record of a unique, twenty-year relationship between one athlete and one photographer.</p>
 
         <p>The combination of Bryant’s narrative and Bernstein’s photos make The Mamba Mentality an unprecedented look behind the curtain at the career of one of the world’s most celebrated and fascinating athletes.</p>
-   
+
         <h4> Get a copy</h4>
         <form action="https://www.amazon.com/Mamba-Mentality-How-Play/dp/0374201234">
             <button type="submit">Amazon</button>
@@ -41,19 +41,31 @@
         <form action="https://blackwells.co.uk/bookshop/product/9780374201234?gC=5a105e8b&gclid=EAIaIQobChMI8LL8j8ux6AIVmNxRCh3V3Ax9EAkYASABEgJ4TvD_BwE">
             <button type="submit"> Blackwells</button>
         </form>
-
+    </div>
 
 
 
     @*review book*@
+    <div class="card-body2">
+        <h5> Reviews</h5>
+        <p>I personally was looking forward to a more in-depth psychological look into the mind of Kobe as well as how he trains in the off-season and during the season. Unfortunately this book doesn't give you that. A lot of people called this a coffee book and that's what it is. Now, that's not a bad thing. Pictures are great and the stories are short and to the point to keep anyone interested. However, as a Kobe fan I wanted more 'Detail'.</p>
+        <small class="text-muted">Posted by John on 03/01/2020</small>
+        <hr />
+        <p>
+            If you're a holistic basketball enthusiast or die hard Kobe Bryant fan, this is the coffee table book for you! You know what Kobe is about and the book perfectly represents his passion for basketball and his meticulous study of his craft.
+            As a basketball enthusiast or die hard Kobe fan, you'd appreciate the official Kobe perspective on VIPs in his career and the(/select) thought process behind his approach.
+        </p>
+        <small class="text-muted">Posted by Nicole on 05/02/2020</small>
+        <form>
+            <div class="form-group">
+                <label>Write your comment</label>
+                <textarea class="form-control" rows="2" name="comment" placeholder="Write your comment here."></textarea>
+            </div>
+            <button class="btn btn-success">Leave a review</button>
+        </form>
 
-   
-        <h3>Review</h3>
-        <input id="btnReview" type="button" value="Add Review" />
-        @if (Session["username"] == null)
-        {
-            <a href="@Url.Action("Login", "Account")">Login to review.</a>
-        }
+
     </div>
+    
 </body>
 </html>

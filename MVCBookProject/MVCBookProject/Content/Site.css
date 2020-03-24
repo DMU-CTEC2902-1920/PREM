@@ -141,3 +141,15 @@ textarea {
     width: 1000px;
     left:10%;
 }
+
+.card-body2 {
+    position: absolute;
+    top: 140%;
+    width: 300px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 20px;
+    color: aqua;
+    width: 1000px;
+    left: 10%;
+}

@@ -17,7 +17,7 @@
 
         <h1>@ViewBag.Title</h1>
         <h2>@ViewBag.Author</h2>
-        
+
         <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200" />
 
 
@@ -88,7 +88,7 @@
     @*Rate now section*@
     <div class="ratenow"><p>Rate Now</p></div>
     <div class="ratings">
-        
+
         <table>
             <tr>
                 <th>1<input id="Radio1" type="radio" /></th>
@@ -96,10 +96,15 @@
                 <th>3<input id="Radio3" type="radio" /></th>
                 <th>4<input id="Radio4" type="radio" /></th>
                 <th>5<input id="Radio5" type="radio" /></th>
-                <th><button class="btn btn-success">Submit</button></th>
+                <th><button onclick="myFunction()" class="btn btn-success">Submit</button></th>
             </tr>
         </table>
     </div>
-
+    @*once submit button is pressed a message will appear*@
+    <script>
+        function myFunction() {
+            alert("Thank you for your vote!");
+        }
+    </script>
 </body>
 </html>

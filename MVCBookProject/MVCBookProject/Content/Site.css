@@ -164,5 +164,14 @@ textarea {
     right: 30%;
     color: aqua;
     font-family: 'Baskerville Old Face';
-    font-size:larger;
+
+}
+
+.ratenow {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    color: aqua;
+    font-family: 'Baskerville Old Face';
+    font-size:30pt;
 }

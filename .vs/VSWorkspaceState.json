@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Hotel Booking",
-    "\\Hotel Booking\\packages"
+    "\\Hotel Booking\\packages",
+    "\\MVCBookProject"
   ],
+  "SelectedNode": "\\MVCBookProject\\MVCBookProject.sln",
   "PreviewInSolutionExplorer": false
 }

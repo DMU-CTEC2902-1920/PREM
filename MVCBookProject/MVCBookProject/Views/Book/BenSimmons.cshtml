@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Ben Simmons";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ben Simmons</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="description">
+
+        <h1>@ViewBag.Title</h1>
+        <h2>@ViewBag.Author</h2>
+
+        <img src="~/images/basketball5.jpg" alt="BenSimmons" height="400" width="200" />
+
+
+
+        <p>
+            In Ben Simmons: The Inspiring Story of One of Basketball's Rising All-Stars, you will learn the incredible story of one of basketball's most exciting guards to watch,
+            Ben Simmons. Since being drafted first overall in the 2016 NBA Draft,
+        </p>
+        <p>
+            Ben Simmons has quickly emerged as one of the league's top young stars to watch.
+            Just twenty-two years old at the time of this writing, Simmons' career is in many ways just getting started. It'll be exciting to see how he continues to grow in the years ahead.
+
+
+            Pick up this unauthorized biography today to learn the inspiring story behind rising star, Ben Simmons!
+
+            Here is a preview of what is inside this Ben Simmons book:
+
+
+            Childhood and Early Days
+
+            High School Career in America
+
+            College Career
+
+            NBA Career: Getting Drafted, The Injury Season
+
+            The Long-Awaited Debut Season, Becoming Rookie of the Year
+
+            First All-Star Appearance
+
+            International Career
+
+            Ben Simmons’ Personal Life
+
+            Simmons’ Impact on Basketball
+
+            Legacy and Future
+        </p>
+
+
+        @*external links*@
+        <h4> Get a copy</h4>
+        <form action="https://www.amazon.com/Ben-Simmons-Inspiring-Basketballs-Basketball-ebook/dp/B07S2KX5BB">
+            <button type="submit">Amazon</button>
+        </form>
+
+
+    </div>
+
+    @*reviews section*@
+    <div class="card-body">
+        <h5> Reviews</h5>
+        <p>Great for youth to read.</p>
+        <small class="text-muted">Posted by Grace on 03/01/2020</small>
+        <hr />
+        <p>Perfect gift for my 10 yr old grandson who is a HUGE 76ers fan</p>
+        <small class="text-muted">Posted by Helen on 03/02/2020</small>
+        <form>
+            <div class="form-group">
+                <label>Write your comment</label>
+                <textarea class="form-control" rows="2" name="comment" placeholder="Write your comment here."></textarea>
+            </div>
+            <button class="btn btn-success">Leave a review</button>
+        </form>
+
+
+    </div>
+    @*Rate now section*@
+    <div class="ratenow"><p>Rate Now</p></div>
+    <div class="ratings">
+
+        <table>
+            <tr>
+                <th>1<input id="Radio1" type="radio" /></th>
+                <th>2<input id="Radio2" type="radio" /></th>
+                <th>3<input id="Radio3" type="radio" /></th>
+                <th>4<input id="Radio4" type="radio" /></th>
+                <th>5<input id="Radio5" type="radio" /></th>
+                <th><button onclick="myFunction()" class="btn btn-success">Submit</button></th>
+            </tr>
+        </table>
+    </div>
+    @*once submit button is pressed a message will appear*@
+    <script>
+        function myFunction() {
+            alert("Thank you for your vote!");
+        }
+    </script>
+</body>
+</html>

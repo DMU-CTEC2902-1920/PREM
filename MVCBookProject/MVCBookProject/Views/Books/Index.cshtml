@@ -1,0 +1,67 @@
+﻿@model IEnumerable<MVCBookProject.Models.Book>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="description">
+        <div class="Content">
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Genre.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Author)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Title)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Publisher)
+                    </th>
+                   
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Genre.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Author)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Publisher)
+                        </td>
+                       
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.BookId }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.BookId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.BookId })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>

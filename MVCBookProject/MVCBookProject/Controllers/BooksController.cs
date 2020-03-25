@@ -48,7 +48,7 @@ namespace MVCBookProject.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "BookId,GenreId,Author,Title,Publisher,YearPublished")] Book book)
+        public ActionResult Create([Bind(Include = "BookId,GenreId,Author,Title,Publisher")] Book book)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace MVCBookProject.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "BookId,GenreId,Author,Title,Publisher,YearPublished")] Book book)
+        public ActionResult Edit([Bind(Include = "BookId,GenreId,Author,Title,Publisher")] Book book)
         {
             if (ModelState.IsValid)
             {

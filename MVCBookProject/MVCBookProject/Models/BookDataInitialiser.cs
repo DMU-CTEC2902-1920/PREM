@@ -25,7 +25,8 @@ namespace MVCBookProject.Models
             bk1.BookId = 1;
             bk1.GenreId = 1;
             bk1.Author = "musical";
-            bk1.Title = "More terrible hits";
+            bk1.Publisher = "More terrible hits";
+            bk1.Title = "gfhf";
             bk1.Genre = gen1;
             context.Books.Add(bk1);
             Book bk2 = new Book();
@@ -33,6 +34,7 @@ namespace MVCBookProject.Models
             bk2.GenreId = 2;
             bk2.Author = "Rom-Com";
             bk2.Title = "Loving";
+            bk2.Publisher = "More terrible hits";
             bk2.Genre = gen2;
             context.Books.Add(bk2);
             base.Seed(context);

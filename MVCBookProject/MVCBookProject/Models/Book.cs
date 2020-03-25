@@ -12,7 +12,8 @@ namespace MVCBookProject.Models
         public virtual string Author { get; set; }
         public virtual string Title { get; set; }
         public virtual string Publisher { get; set; }
-        public virtual DateTime YearPublished { get; set; }
-        public virtual Genre Genre { get; set; }
+       
+        public virtual Genre Genre { get; set; }
+
     }
 }
